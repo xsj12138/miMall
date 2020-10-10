@@ -5,7 +5,7 @@
 
 <script>
 export default {
-  name: 'alipay',
+  name: 'OrderHeader',
   data () {
     return {
     }
