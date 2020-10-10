@@ -6,7 +6,14 @@
 
 <script>
 export default {
-  name: 'App'
+  name: 'App',
+  created () {
+    this.$http.get('xx').then(data => {
+      console.log(data)
+    }).catch(err => {
+      console.log('err', err)
+    })
+  }
 }
 </script>
 
