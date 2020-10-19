@@ -1,8 +1,8 @@
 import Axios from 'axios'
 import QS from 'qs'
-
+import baseURL from './../util/env.js'
 const interceptor = Axios.create({
-  baseURL: '/api',
+  baseURL: baseURL,
   timeout: 8000
 })
 
